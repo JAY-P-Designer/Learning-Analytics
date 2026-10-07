@@ -1,0 +1,12 @@
+{
+  "name": "learning-analytics-access-regression",
+  "private": true,
+  "scripts": {
+    "test": "node acessos.cjs && node tabs.cjs && node blank_categories.cjs && node forum_participation.cjs && node assignment_progress.cjs && node teacher_scoring.cjs && node localization.cjs",
+    "test:language": "node localization.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  },
+  "license": "GPL-3.0-or-later"
+}
